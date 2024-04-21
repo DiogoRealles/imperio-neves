@@ -5,11 +5,11 @@ const Index = () => {
   return (
     <section id="contact" className="py-10">
       <div className="container mx-auto px-4 md:px-0">
-        <header className="pb-20">
-          <h2 className="text-white text-[40px] font-semibold text-center font-serif">
+        <header className="flex flex-col md:flex-row items-center md:justify-between text-center md:text-start pb-20">
+          <h2 className="text-[40px] text-white font-semibold font-serif leading-[105%] mb-2">
             Contato
           </h2>
-          <p className="text-white/75 text-[14px] md:text-[24px] text-center">
+          <p className="font-semibold text-white/65 text-[18px] w-full max-w-[500px]">
             Visite nossa loja ou converse conosco do conforto da sua casa.
           </p>
         </header>

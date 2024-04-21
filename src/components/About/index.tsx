@@ -9,14 +9,14 @@ const Index = () => {
           <h2 className="text-[40px] uppercase font-bold font-serif pt-10 mb-5 text-center md:text-left">
             Adriana Neves
           </h2>
-          <p className="mb-6 text-lg font-thin text-white/80 text-center md:text-left">
+          <p className="mb-6 text-lg font-thin text-white text-center md:text-left">
             Fundadora e líder, é mais do que uma empreendedora. Ela é uma mãe
             dedicada, uma líder empática e uma mulher incrivelmente resiliente.
             Há mais de 6 anos, Adriana lidera e inspira outras mulheres, e seu
             espírito forte é o alicerce da nossa marca. Como cristã, ela
             acredita que a verdadeira essência está no Criador de nossas vidas.
           </p>
-          <p className="mb-6 text-lg font-thin text-white/80 text-center md:text-left">
+          <p className="mb-6 text-lg font-thin text-white text-center md:text-left">
             A Império Neves nasceu de um desejo profundo: inspirar e ajudar as
             pessoas a comunicarem-se com confiança através de suas roupas. A
             roupa que você escolhe comunica muito sobre quem você é e onde
@@ -24,7 +24,7 @@ const Index = () => {
             para que você viva seus momentos especiais com tranquilidade e
             confiança.
           </p>
-          <p className="mb-6 text-lg font-thin text-white/80 text-center md:text-left">
+          <p className="mb-6 text-lg font-thin text-white text-center md:text-left">
             A voz da Império Neves é a do homem poderoso, próspero, sábio e
             forte que existe dentro de cada um, somos uma empresa que visa a
             manifestação da real identidade masculina a partir do parâmetro
