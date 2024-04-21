@@ -33,7 +33,7 @@ const Index = () => {
             autenticidade.
           </p>
           <Link
-            href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+Instagram%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
             className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-block mx-auto md:mx-0 w-fit hover:underline underline-offset-4 ease-linear"
             target=" _blank"
             title="Chamar no Whatsapp"

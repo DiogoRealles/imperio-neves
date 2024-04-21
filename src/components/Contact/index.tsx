@@ -55,13 +55,17 @@ const Index = () => {
                 Telefones / Email
               </h3>
               <p className="text-white/65 text-base text-center mb-2">
-                (11) 3675-5769
+                (11) 9 8790-9927
               </p>
-              <p className="text-white/65 text-base text-center mb-10">
-                imperio@contato.com
-              </p>
+
+              <a
+                href="mailto:imperionevess@gmail.com"
+                className="text-white/65 text-base text-center mb-10 inline-block"
+              >
+                imperionevess@gmail.com
+              </a>
               <Link
-                href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+Instagram%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
                 className="bg-green-500 gap-2 inline-flex font-semibold items-center text-2xl text-green-950 border-black py-3 px-5 hover:bg-green-600 ease-linear"
                 target=" _blank"
                 title="Chamar no Whatsapp"

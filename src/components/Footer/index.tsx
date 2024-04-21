@@ -25,7 +25,7 @@ const Index = () => {
                 <p className="text-white text-[24px] font-semibold font-serif">
                   Império Neves
                 </p>
-                <span className="text-white/65 text-sm ">@ImperioNeves</span>
+                <span className="text-white/65 text-sm ">@ImperioNevess</span>
               </div>
             </div>
             <Link
@@ -55,12 +55,20 @@ const Index = () => {
             <p className="text-white text-[18px] hidden md:block">Siga</p>
 
             <li className="p-2">
-              <Link className="" href="" target="_blank">
+              <Link
+                className=""
+                href="https://www.instagram.com/imperionevess/"
+                target="_blank"
+              >
                 <FaInstagram size={40} />
               </Link>
             </li>
             <li className="p-2">
-              <Link className="" href="" target="_blank">
+              <Link
+                className=""
+                href="https://www.facebook.com/imperionevess/"
+                target="_blank"
+              >
                 <FaFacebookSquare size={40} />
               </Link>
             </li>

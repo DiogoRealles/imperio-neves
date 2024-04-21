@@ -12,7 +12,7 @@ const Index = () => {
             Venda e locação de trajes a rigor
           </p>
           <Link
-            href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+Instagram%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
             className="mx-auto md:mx-0 text-[18px] text-white font-normal border-black bg-black py-3 px-5 inline-block hover:underline ease-linear underline-offset-4"
             target=" _blank"
             title="Chamar no Whatsapp"

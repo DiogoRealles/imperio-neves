@@ -17,7 +17,7 @@ const Index = () => {
             height={100}
             quality={90}
           />
-          <span className="text-black font-serif text-[18px] font-normal">
+          <span className="text-white font-serif text-[18px] font-normal">
             Império Neves
           </span>
         </Link>
