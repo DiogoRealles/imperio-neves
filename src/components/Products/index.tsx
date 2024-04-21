@@ -8,7 +8,7 @@ const Index = () => {
           <h2 className="text-white text-[40px] font-semibold text-center font-serif">
             Tipos de traje
           </h2>
-          <p className="text-white/75 text-[14px] md:text-[24px] text-center">
+          <p className="text-white/75 text-[18px] md:text-[24px] text-center">
             Veja nossas sugestões de roupas para eventos e festas
           </p>
         </header>
@@ -16,7 +16,7 @@ const Index = () => {
           <div className="relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product01 p-40 rounded text-center">
             <Link
               href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[18px] text-white font-serif text-center"
+              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[24px] text-white font-serif text-center"
             >
               Roupas de noivo
             </Link>
@@ -24,7 +24,7 @@ const Index = () => {
           <div className="relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product02 p-40 rounded text-center">
             <Link
               href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[18px] text-white font-serif text-center"
+              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[24px] text-white font-serif text-center"
             >
               Roupas para padrinho
             </Link>
@@ -32,7 +32,7 @@ const Index = () => {
           <div className="relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product03 p-40 rounded text-center">
             <Link
               href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[18px] text-white font-serif text-center"
+              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[24px] text-white font-serif text-center"
             >
               Roupas para pagem
             </Link>
@@ -40,7 +40,7 @@ const Index = () => {
           <div className="relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product04 p-40 rounded text-center">
             <Link
               href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[18px] text-white font-serif text-center"
+              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[24px] text-white font-serif text-center"
             >
               Roupas para formandos
             </Link>
@@ -48,7 +48,7 @@ const Index = () => {
           <div className="relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product05 p-40 rounded text-center">
             <Link
               href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[18px] text-white font-serif text-center"
+              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[24px] text-white font-serif text-center"
             >
               Roupas paara festas
             </Link>
@@ -56,7 +56,7 @@ const Index = () => {
           <div className="relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product06 p-40 rounded text-center">
             <Link
               href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[18px] text-white font-serif text-center"
+              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[24px] text-white font-serif text-center"
             >
               Roupas para reuniões
             </Link>

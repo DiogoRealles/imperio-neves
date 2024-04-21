@@ -1,10 +1,11 @@
+import { FiMenu } from 'react-icons/fi';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const Index = () => {
   return (
     <nav className="py-4">
-      <div className="container mx-auto flex items-center justify-between text-center">
+      <div className="container mx-auto flex items-center justify-between text-center px-4 md:px-0">
         <Link
           className="gap-1 flex-col items-center flex justify-center"
           href="/"
@@ -21,6 +22,8 @@ const Index = () => {
             Império Neves
           </span>
         </Link>
+
+        <FiMenu className="text-white inline-block md:hidden" size={24} />
 
         <ul className="hidden md:flex items-center gap-4">
           <li>
