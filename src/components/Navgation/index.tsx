@@ -1,0 +1,57 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
+const Index = () => {
+  return (
+    <nav className="py-4">
+      <div className="container mx-auto flex items-center justify-between text-center">
+        <Link
+          className="gap-1 flex-col items-center flex justify-center"
+          href="/"
+        >
+          <Image
+            className="w-[60px] h-[60px]"
+            src="/assets/img/logo.png"
+            alt=""
+            width={100}
+            height={100}
+            quality={90}
+          />
+          <span className="text-black font-serif text-[18px] font-normal">
+            Império Neves
+          </span>
+        </Link>
+
+        <ul className="hidden md:flex items-center gap-4">
+          <li>
+            <Link className="py-1 px-2" href="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="py-1 px-2" href="#about">
+              Sobre
+            </Link>
+          </li>
+          <li>
+            <Link className="py-1 px-2" href="#new-arrivals">
+              Novidades
+            </Link>
+          </li>
+          <li>
+            <Link className="py-1 px-2" href="#contact">
+              Contato
+            </Link>
+          </li>
+          <li>
+            <Link className="py-1 px-2" href="#follow">
+              Siga-nos
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Index;

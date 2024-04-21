@@ -1,0 +1,79 @@
+import { FaWhatsapp } from 'react-icons/fa';
+import Link from 'next/link';
+
+const Index = () => {
+  return (
+    <section id="contact" className="py-10">
+      <div className="container mx-auto px-4 md:px-0">
+        <header className="pb-20">
+          <h2 className="text-white text-[40px] font-semibold text-center font-serif">
+            Contato
+          </h2>
+          <p className="text-white/75 text-[14px] md:text-[24px] text-center">
+            Visite nossa loja ou converse conosco do conforto da sua casa.
+          </p>
+        </header>
+
+        <div className="flex justify-between flex-col md:flex-row gap-10 md:gap-40">
+          <div className="w-full h-auto overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d279.5888973438748!2d-46.73599832223751!3d-23.654599872230502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51dd03e19f63%3A0x1ee246a1dceda4c1!2sImp%C3%A9rio%20neves%20trajes%20masculinos!5e0!3m2!1sen!2sbr!4v1713481345563!5m2!1sen!2sbr"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col text-center justify-center gap-10">
+            <div className="">
+              <h3 className="mb-2 text-[24px] text-white font-semibold">
+                Endereço
+              </h3>
+              <p className="text-white/65 text-base text-center mb-2">
+                Av. Maria Coelho Aguiar, 1204 - Jd São Luiz / São Paulo - SP
+              </p>
+              <p className="text-white/65 text-base text-center mb-2">
+                CEP: 05805-000
+              </p>
+            </div>
+
+            <div className="">
+              <h3 className="mb-2 text-[24px] text-white font-semibold">
+                Horário de atendimento
+              </h3>
+              <p className="text-white/65 text-base text-center mb-2">
+                Segunda a sexta: 10h30 - 19h
+              </p>
+              <p className="text-white/65 text-base text-center mb-2">
+                Sábado: 10h - 16h
+              </p>
+            </div>
+
+            <div className="">
+              <h3 className="mb-2 text-[24px] text-white font-semibold">
+                Telefones / Email
+              </h3>
+              <p className="text-white/65 text-base text-center mb-2">
+                (11) 3675-5769
+              </p>
+              <p className="text-white/65 text-base text-center mb-10">
+                imperio@contato.com
+              </p>
+              <Link
+                href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+Instagram%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+                className="bg-green-500 gap-2 inline-flex font-semibold items-center text-2xl text-green-950 border-black py-3 px-5 hover:bg-green-600 ease-linear"
+                target=" _blank"
+                title="Chamar no Whatsapp"
+              >
+                <FaWhatsapp size={28} /> Chame no Whats
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Index;
