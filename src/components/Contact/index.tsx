@@ -70,7 +70,8 @@ const Index = () => {
                 target=" _blank"
                 title="Chamar no Whatsapp"
               >
-                <FaWhatsapp size={28} /> Chame no Whats
+                <FaWhatsapp size={28} />{' '}
+                <span className="whitespace-nowrap">Chame no Whats</span>
               </Link>
             </div>
           </div>
