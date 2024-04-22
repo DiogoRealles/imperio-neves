@@ -7,7 +7,7 @@ const dateYear = new Date().getFullYear();
 
 const Index = () => {
   return (
-    <footer className="pt-20">
+    <footer id="follow" className="">
       <div className="container mx-auto px-4 md:px-0">
         <div className="">
           <header className="flex items-center justify-between py-10">
