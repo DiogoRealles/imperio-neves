@@ -6,17 +6,17 @@ const Index = () => {
       <div className="container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center justify-center md:gap-20">
         <div className="w-[250px] md:w-[450px] h-[250px] md:h-[750px] mx-auto bg-about bg-top bg-no-repeat bg-cover rounded-full md:rounded-ss-full md:rounded-se-full md:rounded-es-full md:rounded-ee-full"></div>
         <div className="flex flex-1 flex-col pb-10">
-          <h2 className="text-[40px] uppercase font-bold font-serif pt-10 mb-5 text-center md:text-left">
+          <h2 className="text-[40px] uppercase font-title font-thin pt-10 mb-5 text-center md:text-left">
             Adriana Neves
           </h2>
-          <p className="mb-6 text-lg font-thin text-white text-center md:text-left">
+          <p className="mb-6 text-lg font-body font-normal text-[14px] text-white text-center md:text-left">
             Fundadora e líder, é mais do que uma empreendedora. Ela é uma mãe
             dedicada, uma líder empática e uma mulher incrivelmente resiliente.
             Há mais de 6 anos, Adriana lidera e inspira outras mulheres, e seu
             espírito forte é o alicerce da nossa marca. Como cristã, ela
             acredita que a verdadeira essência está no Criador de nossas vidas.
           </p>
-          <p className="mb-6 text-lg font-thin text-white text-center md:text-left">
+          <p className="mb-6 text-lg font-body font-normal text-[14px] text-white text-center md:text-left">
             A Império Neves nasceu de um desejo profundo: inspirar e ajudar as
             pessoas a comunicarem-se com confiança através de suas roupas. A
             roupa que você escolhe comunica muito sobre quem você é e onde
@@ -24,7 +24,7 @@ const Index = () => {
             para que você viva seus momentos especiais com tranquilidade e
             confiança.
           </p>
-          <p className="mb-6 text-lg font-thin text-white text-center md:text-left">
+          <p className="mb-6 text-lg font-body font-normal text-[14px] text-white text-center md:text-left">
             A voz da Império Neves é a do homem poderoso, próspero, sábio e
             forte que existe dentro de cada um, somos uma empresa que visa a
             manifestação da real identidade masculina a partir do parâmetro

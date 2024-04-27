@@ -22,7 +22,7 @@ const Index = () => {
                 />
               </div>
               <div className="">
-                <p className="text-white text-[24px] font-semibold font-serif">
+                <p className="text-white text-[24px] font-title font-thin">
                   Império Neves
                 </p>
                 <span className="text-white/65 text-sm ">@ImperioNevess</span>
@@ -46,8 +46,11 @@ const Index = () => {
           </a>
 
           <p>
-            &copy; <strong className="font-serif">Império Neves</strong> -{' '}
-            {dateYear}
+            &copy;{' '}
+            <strong className=" font-title font-thin text-[24px]">
+              Império Neves
+            </strong>{' '}
+            - {dateYear}
           </p>
 
           <p className="text-white text-[18px] md:hidden">Siga</p>

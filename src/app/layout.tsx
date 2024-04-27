@@ -1,9 +1,22 @@
 import type { Metadata, Viewport } from 'next';
-import { Noto_Sans_Display } from 'next/font/google';
+import { Cormorant_Garamond, Open_Sans } from 'next/font/google';
 import '@/styles/globals.css';
 import Navigation from '@/components/Navgation';
 import Footer from '@/components/Footer';
-const noto_sans_display = Noto_Sans_Display({ subsets: ['latin'] });
+
+const cormorant_garamond = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-cormorant_garamond',
+});
+
+const open_sans = Open_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-open_sans',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -24,7 +37,9 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="pt-br">
-      <body className={`${noto_sans_display.className} bg-black text-white `}>
+      <body
+        className={`${cormorant_garamond.variable} ${open_sans.variable} bg-black text-white `}
+      >
         <Navigation />
         {children}
         <Footer />

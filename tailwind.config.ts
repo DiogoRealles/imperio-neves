@@ -22,7 +22,8 @@ const config: Config = {
         customers: "url('/assets/img/customers.png')",
       },
       fontFamily: {
-        body: ['var(--font-work_sans)'],
+        title: ['var(--font-cormorant_garamond)'],
+        body: ['var(--font-open_sans)'],
       },
     },
   },

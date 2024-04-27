@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { FaStar } from 'react-icons/fa';
 
 const Index = () => {
@@ -6,10 +5,10 @@ const Index = () => {
     <section className="bg-white">
       <div className="relative container mx-auto py-20 px-4 md:px-0">
         <header className="flex flex-col md:flex-row items-center md:justify-between text-center md:text-start pb-20">
-          <h2 className="text-[40px] text-black font-semibold font-serif leading-[105%] mb-2">
+          <h2 className="uppercase text-[40px] text-black font-title font-thin leading-[105%] mb-2">
             Depoimentos de meus clientes
           </h2>
-          <p className="font-semibold text-black/65 text-[18px] w-full max-w-[500px]">
+          <p className="font-body font-normal text-black/75 text-[18px] w-full max-w-[500px]">
             Produtos originais, costura personalizada, trajes sob medida...
           </p>
         </header>
@@ -24,15 +23,15 @@ const Index = () => {
                 ))}
             </div>
 
-            <p className="text-sm text-black/65 mb-5 grow">
+            <p className=" font-body font-normal text-sm text-black/65 mb-5 grow">
               Atendimento nota 1.000. Às roupas impecáveis, limpas e
               higienizados. Vale muito a pena, recomendo.
             </p>
 
-            <h4 className="text-xl text-black/80 font-semibold mb-2">
+            <h4 className="text-xl text-black/80  font-body font-semibold mb-2">
               Akira Tattoo
             </h4>
-            <span className="inline-block text-sm text-black/65">
+            <span className="inline-block font-body font-normal text-sm text-black/65">
               alguns dias atrás
             </span>
           </div>
@@ -46,15 +45,15 @@ const Index = () => {
                 ))}
             </div>
 
-            <p className="text-sm text-black/65 mb-5 grow">
+            <p className=" font-body font-normal text-sm text-black/65 mb-5 grow">
               Aluguei o traje pro meu filho de 8 anos, para um casamento e
               adorei tudo, atendimento preço vale muito super encomendo
             </p>
 
-            <h4 className="text-xl text-black/80 font-semibold mb-2">
+            <h4 className="text-xl text-black/80  font-body font-semibold mb-2">
               Daniele Viana
             </h4>
-            <span className="inline-block text-sm text-black/65">
+            <span className="inline-block font-body font-normal text-sm text-black/65">
               Alguns dias atrás
             </span>
           </div>
@@ -68,15 +67,15 @@ const Index = () => {
                 ))}
             </div>
 
-            <p className="text-sm text-black/65 mb-5 grow">
+            <p className=" font-body font-normal text-sm text-black/65 mb-5 grow">
               Excelente atendimento, trages perfeitos e ótimos preços.
               Recomendo!
             </p>
 
-            <h4 className="text-xl text-black/80 font-semibold mb-2">
+            <h4 className="text-xl text-black/80  font-body font-semibold mb-2">
               Henrique Alan Santos
             </h4>
-            <span className="inline-block text-sm text-black/65">
+            <span className="inline-block font-body font-normal text-sm text-black/65">
               Uma semana atrás
             </span>
           </div>

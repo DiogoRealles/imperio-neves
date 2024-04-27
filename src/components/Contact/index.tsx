@@ -6,10 +6,10 @@ const Index = () => {
     <section id="contact" className="py-10">
       <div className="container mx-auto px-4 md:px-0">
         <header className="flex flex-col md:flex-row items-center md:justify-between text-center md:text-start pb-20">
-          <h2 className="text-[40px] text-white font-semibold font-serif leading-[105%] mb-2">
+          <h2 className="text-[40px] uppercase text-white font-title font-thin leading-[105%] mb-2">
             Contato
           </h2>
-          <p className="font-semibold text-white/65 text-[18px] w-full max-w-[500px]">
+          <p className="font-body font-semibold text-white/65 text-[18px] w-full max-w-[500px]">
             Visite nossa loja ou converse conosco do conforto da sua casa.
           </p>
         </header>
@@ -27,34 +27,34 @@ const Index = () => {
 
           <div className="flex flex-col text-center justify-center gap-10">
             <div className="">
-              <h3 className="mb-2 text-[24px] text-white font-semibold">
+              <h3 className="mb-2 text-[24px] text-white font-title font-semibold">
                 Endereço
               </h3>
-              <p className="text-white/65 text-base text-center mb-2">
+              <p className="text-white/65 font-body font-normal text-base text-center mb-2">
                 Av. Maria Coelho Aguiar, 1204 - Jd São Luiz / São Paulo - SP
               </p>
-              <p className="text-white/65 text-base text-center mb-2">
+              <p className="text-white/65 font-body font-normal text-base text-center mb-2">
                 CEP: 05805-000
               </p>
             </div>
 
             <div className="">
-              <h3 className="mb-2 text-[24px] text-white font-semibold">
+              <h3 className="mb-2 text-[24px] text-white font-title font-semibold">
                 Horário de atendimento
               </h3>
-              <p className="text-white/65 text-base text-center mb-2">
+              <p className="text-white/65 font-body font-normal text-base text-center mb-2">
                 Segunda a Sexta: 10h - 19h
               </p>
-              <p className="text-white/65 text-base text-center mb-2">
+              <p className="text-white/65 font-body font-normal text-base text-center mb-2">
                 Sábado: 10h - 18h
               </p>
             </div>
 
             <div className="flex flex-col">
-              <h3 className="mb-2 text-[24px] text-white font-semibold">
+              <h3 className="mb-2 text-[24px] text-white font-title font-semibold">
                 Telefones / Email
               </h3>
-              <p className="text-white/65 text-base text-center mb-2">
+              <p className="text-white/65 font-body font-normal text-base text-center mb-2">
                 (11) 9 8790-9927
               </p>
 

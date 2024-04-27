@@ -18,7 +18,7 @@ const Index = () => {
             height={100}
             quality={90}
           /> */}
-          <span className="text-white font-serif text-[18px] font-normal">
+          <span className="text-white font-title font-thin text-[24px]">
             Império Neves
           </span>
         </Link>
@@ -27,27 +27,27 @@ const Index = () => {
 
         <ul className="hidden md:flex items-center gap-4">
           <li>
-            <Link className="py-1 px-2" href="/">
+            <Link className="font-body font-normal py-1 px-2" href="/">
               Home
             </Link>
           </li>
           <li>
-            <Link className="py-1 px-2" href="#about">
+            <Link className="font-body font-normal py-1 px-2" href="#about">
               Sobre
             </Link>
           </li>
           <li>
-            <Link className="py-1 px-2" href="#trajes">
+            <Link className="font-body font-normal py-1 px-2" href="#trajes">
               Trajes
             </Link>
           </li>
           <li>
-            <Link className="py-1 px-2" href="#contact">
+            <Link className="font-body font-normal py-1 px-2" href="#contact">
               Contato
             </Link>
           </li>
           <li>
-            <Link className="py-1 px-2" href="#follow">
+            <Link className="font-body font-normal py-1 px-2" href="#follow">
               Siga-nos
             </Link>
           </li>
