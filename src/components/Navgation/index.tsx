@@ -4,20 +4,20 @@ import Link from 'next/link';
 
 const Index = () => {
   return (
-    <nav className="py-4">
+    <nav id="hero" className="py-4">
       <div className="container mx-auto flex items-center justify-between text-center px-4 md:px-0">
         <Link
           className="gap-1 flex-col items-center flex justify-center"
           href="/"
         >
-          <Image
+          {/* <Image
             className="w-[60px] h-[60px]"
             src="/assets/img/logo.png"
             alt=""
             width={100}
             height={100}
             quality={90}
-          />
+          /> */}
           <span className="text-white font-serif text-[18px] font-normal">
             Império Neves
           </span>
@@ -37,8 +37,8 @@ const Index = () => {
             </Link>
           </li>
           <li>
-            <Link className="py-1 px-2" href="#new-arrivals">
-              Novidades
+            <Link className="py-1 px-2" href="#trajes">
+              Trajes
             </Link>
           </li>
           <li>

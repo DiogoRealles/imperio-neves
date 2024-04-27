@@ -15,9 +15,9 @@ const Index = () => {
         </header>
 
         <div className="flex justify-between flex-col md:flex-row gap-10 md:gap-40">
-          <div className="w-full h-[400px] md:h-auto overflow-hidden">
+          <div className="w-full h-[400px] md:h-auto overflow-hidden rounded-[16px]">
             <iframe
-              className="w-full h-full"
+              className="border-none outline-none w-full h-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d279.5888973438748!2d-46.73599832223751!3d-23.654599872230502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51dd03e19f63%3A0x1ee246a1dceda4c1!2sImp%C3%A9rio%20neves%20trajes%20masculinos!5e0!3m2!1sen!2sbr!4v1713481345563!5m2!1sen!2sbr"
               allowFullScreen
               loading="lazy"
@@ -43,10 +43,10 @@ const Index = () => {
                 Horário de atendimento
               </h3>
               <p className="text-white/65 text-base text-center mb-2">
-                Segunda a sexta: 10h30 - 19h
+                Segunda a Sexta: 10h - 19h
               </p>
               <p className="text-white/65 text-base text-center mb-2">
-                Sábado: 10h - 16h
+                Sábado: 10h - 18h
               </p>
             </div>
 
@@ -66,7 +66,7 @@ const Index = () => {
               </a>
               <Link
                 href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
-                className="bg-green-500 gap-2 inline-flex font-semibold items-center text-2xl text-green-950 border-black py-3 px-5 hover:bg-green-600 ease-linear w-fit mx-auto md:mx-0"
+                className="bg-green-500 gap-2 inline-flex font-semibold items-center text-2xl text-green-950 border-black py-3 px-5 hover:bg-green-600 ease-linear w-fit mx-auto md:mx-0 rounded-[6px]"
                 target=" _blank"
                 title="Chamar no Whatsapp"
               >

@@ -3,9 +3,9 @@ import Link from 'next/link';
 const Index = () => {
   return (
     <section id="about" className="">
-      <div className="container mx-auto flex flex-col md:justify-center md:flex-row px-3 md:gap-20">
-        <div className="w-full md:max-w-[450px] h-[450px] md:h-[750px] bg-about bg-top bg-no-repeat bg-cover"></div>
-        <div className="w-full max-w-[500px] flex flex-col pb-10">
+      <div className="container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center justify-center md:gap-20">
+        <div className="w-[250px] md:w-[450px] h-[250px] md:h-[750px] mx-auto bg-about bg-top bg-no-repeat bg-cover rounded-full md:rounded-ss-full md:rounded-se-full md:rounded-es-full md:rounded-ee-full"></div>
+        <div className="flex flex-1 flex-col pb-10">
           <h2 className="text-[40px] uppercase font-bold font-serif pt-10 mb-5 text-center md:text-left">
             Adriana Neves
           </h2>
@@ -34,7 +34,7 @@ const Index = () => {
           </p>
           <Link
             href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
-            className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-block mx-auto md:mx-0 w-fit hover:underline underline-offset-4 ease-linear"
+            className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-block mx-auto md:mx-0 w-fit hover:underline underline-offset-4 ease-linear rounded-[6px]"
             target=" _blank"
             title="Chamar no Whatsapp"
           >

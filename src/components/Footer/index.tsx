@@ -30,7 +30,7 @@ const Index = () => {
             </div>
             <Link
               href="https://www.instagram.com/imperionevess/"
-              className="gap-2 inline-flex font-semibold items-center text-2xl text-black border-black bg-white py-3 px-5"
+              className="gap-2 inline-flex font-semibold items-center text-2xl text-black border-black bg-white py-3 px-5 rounded-[6px]"
               target=" _blank"
               title="Chamar no Whatsapp"
             >
@@ -41,7 +41,7 @@ const Index = () => {
         </div>
 
         <div className="flex flex-col md:flex-row gap-5 items-center justify-between py-5">
-          <a className="inline-flex gap-2 items-center" href="/">
+          <a className="inline-flex gap-2 items-center" href="#hero">
             Voltar ao topo <FaArrowUp />
           </a>
 

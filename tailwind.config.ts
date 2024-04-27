@@ -19,6 +19,7 @@ const config: Config = {
         product04: "url('/assets/img/product04.jpg')",
         product05: "url('/assets/img/product05.jpg')",
         product06: "url('/assets/img/product06.jpg')",
+        customers: "url('/assets/img/customers.png')",
       },
       fontFamily: {
         body: ['var(--font-work_sans)'],

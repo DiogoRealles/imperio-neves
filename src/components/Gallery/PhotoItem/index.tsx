@@ -12,7 +12,7 @@ const Index = ({ photo, onClick, colSpan, rowSpan }: Props) => {
   return (
     <div
       onClick={onClick}
-      className={`relative w-full h-full cursor-pointer hover:opacity-80 col-span-${colSpan} row-span-${rowSpan}`}
+      className={`relative w-full h-full cursor-pointer hover:opacity-80 col-span-${colSpan} row-span-${rowSpan} rounded-[6px] overflow-hidden`}
     >
       <Image
         className="w-full h-full object-cover align-middle"
