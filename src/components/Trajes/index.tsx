@@ -14,52 +14,34 @@ const Index = () => {
         </header>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 gap-5">
           <div className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product01 p-10 text-center w-full h-[320px]">
-            <Link
-              href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center"
-            >
+            <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas de noivo
-            </Link>
+            </div>
           </div>
           <div className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product02 p-10 text-center w-full h-[320px]">
-            <Link
-              href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center"
-            >
+            <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para padrinho
-            </Link>
+            </div>
           </div>
           <div className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product03 p-10 text-center w-full h-[320px]">
-            <Link
-              href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center"
-            >
+            <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para pagem
-            </Link>
+            </div>
           </div>
           <div className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product04 p-10 text-center w-full h-[320px]">
-            <Link
-              href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center"
-            >
+            <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para formandos
-            </Link>
+            </div>
           </div>
           <div className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product05 p-10 text-center w-full h-[320px]">
-            <Link
-              href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center"
-            >
+            <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para festas
-            </Link>
+            </div>
           </div>
           <div className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product06 p-10 text-center w-full h-[320px]">
-            <Link
-              href=""
-              className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center"
-            >
+            <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para reuniões
-            </Link>
+            </div>
           </div>
         </div>
       </div>
