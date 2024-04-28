@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Index = () => {
   return (
@@ -34,11 +35,15 @@ const Index = () => {
           </p>
           <Link
             href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
-            className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-block mx-auto md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80"
+            className=" text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-flex mx-auto md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
             target=" _blank"
             title="Chamar no Whatsapp"
           >
-            Entre em contato
+            <span className="whitespace-nowrap">Chame no Whats</span>
+            <FaWhatsapp
+              className=" group-hover:translate-x-2 transition-all ease-linear"
+              size={28}
+            />{' '}
           </Link>
         </div>
       </div>

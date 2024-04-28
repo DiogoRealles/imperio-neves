@@ -64,14 +64,18 @@ const Index = () => {
               >
                 imperionevess@gmail.com
               </a>
+
               <Link
                 href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
-                className="bg-green-500 gap-2 inline-flex font-semibold items-center text-2xl text-green-950 border-black py-3 px-5 hover:bg-green-600 ease-linear w-fit mx-auto md:mx-0 rounded-[6px]"
+                className=" text-[18px] text-black font-normal border-black bg-green-500 py-3 px-5 inline-flex mx-auto md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
                 target=" _blank"
                 title="Chamar no Whatsapp"
               >
-                <FaWhatsapp size={28} />{' '}
                 <span className="whitespace-nowrap">Chame no Whats</span>
+                <FaWhatsapp
+                  className=" group-hover:translate-x-2 transition-all ease-linear"
+                  size={28}
+                />{' '}
               </Link>
             </div>
           </div>

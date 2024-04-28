@@ -1,8 +1,30 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import { BsList, BsX } from 'react-icons/bs';
+import ItemMenu from './ItemMenu';
 import { FiMenu } from 'react-icons/fi';
-import Image from 'next/image';
 import Link from 'next/link';
+import { NAV_BTN, NAV_LINKS } from '@/constants';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Index = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
+  const [openMenu, setOpenMenu] = useState<boolean>(false);
+
+  function toggleMenu() {
+    setOpenMenu(!openMenu);
+  }
+  const handleClick = (key: string) => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
     <nav id="hero" className="py-8">
       <div className="container mx-auto flex items-center justify-between text-center px-4 md:px-0">
@@ -23,9 +45,9 @@ const Index = () => {
           </span>
         </Link>
 
-        <FiMenu className="text-white inline-block md:hidden" size={24} />
+        {/* <FiMenu className="text-white inline-block md:hidden" size={24} /> */}
 
-        <ul className="hidden md:flex items-center gap-4">
+        {/* <ul className="hidden md:flex items-center gap-4">
           <li>
             <Link className="font-body font-normal py-1 px-2" href="/">
               Home
@@ -51,7 +73,7 @@ const Index = () => {
               Siga-nos
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );

@@ -28,13 +28,18 @@ const Index = () => {
                 <span className="text-white/65 text-sm ">@ImperioNevess</span>
               </div>
             </div>
+
             <Link
-              href="https://www.instagram.com/imperionevess/"
-              className="gap-2 inline-flex font-semibold items-center text-2xl text-black border-black bg-white py-3 px-5 rounded-[6px]"
+              href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+              className=" text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-flex mx-auto md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
               target=" _blank"
               title="Chamar no Whatsapp"
             >
-              <FaInstagram size={20} /> Seguir
+              <span className="whitespace-nowrap">Seguir</span>
+              <FaInstagram
+                className=" group-hover:translate-x-2 transition-all ease-linear"
+                size={28}
+              />{' '}
             </Link>
           </header>
           <Gallery />
