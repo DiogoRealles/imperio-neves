@@ -1,25 +1,22 @@
 export const NAV_LINKS = [
   {
-    link: '#bauru',
-    label: 'Bauru',
+    link: '#home',
+    label: 'Home',
   },
   {
-    link: '#studio27',
-    label: 'Studio 27',
+    link: '#about',
+    label: 'Sobre',
   },
   {
-    link: '#plants',
-    label: 'Plantas',
+    link: '#trajes',
+    label: 'Trajes',
   },
-  {
-    link: '#common-areas',
-    label: 'Áreas comuns',
-  },
-];
-
-export const NAV_BTN = [
   {
     link: '#contact',
     label: 'Contato',
+  },
+  {
+    link: '#follow',
+    label: 'Siga',
   },
 ];

@@ -5,7 +5,7 @@ import { BsList, BsX } from 'react-icons/bs';
 import ItemMenu from './ItemMenu';
 import { FiMenu } from 'react-icons/fi';
 import Link from 'next/link';
-import { NAV_BTN, NAV_LINKS } from '@/constants';
+import { NAV_LINKS } from '@/constants';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -32,48 +32,63 @@ const Index = () => {
           className="gap-1 flex-col items-center flex justify-center"
           href="/"
         >
-          {/* <Image
-            className="w-[60px] h-[60px]"
-            src="/assets/img/logo.png"
-            alt=""
-            width={100}
-            height={100}
-            quality={90}
-          /> */}
           <span className="text-white font-title font-thin text-[24px]">
             Império Neves
           </span>
         </Link>
 
-        {/* <FiMenu className="text-white inline-block md:hidden" size={24} /> */}
+        {/* MENU DESKTOP */}
+        <div className="flex justify-end items-center py-2">
+          <ul className="hidden md:flex items-center gap-2">
+            {NAV_LINKS.map(({ link, label }, index) => (
+              <ItemMenu key={index} link={link} label={label} />
+            ))}
+          </ul>
+        </div>
 
-        {/* <ul className="hidden md:flex items-center gap-4">
-          <li>
-            <Link className="font-body font-normal py-1 px-2" href="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="font-body font-normal py-1 px-2" href="#about">
-              Sobre
-            </Link>
-          </li>
-          <li>
-            <Link className="font-body font-normal py-1 px-2" href="#trajes">
-              Trajes
-            </Link>
-          </li>
-          <li>
-            <Link className="font-body font-normal py-1 px-2" href="#contact">
-              Contato
-            </Link>
-          </li>
-          <li>
-            <Link className="font-body font-normal py-1 px-2" href="#follow">
-              Siga-nos
-            </Link>
-          </li>
-        </ul> */}
+        {/* MENU MOBILE */}
+        <div
+          className="md:hidden cursor-pointer flex items-center gap-2 bg-[#101010] rounded-es-3xl py-3 px-5"
+          onClick={toggleMenu}
+        >
+          <span className="text-body text-white text-body-18 lowercase">
+            menu
+          </span>
+          <BsList className="w-8 h-8 text-white" />
+        </div>
+        <div
+          className={
+            openMenu
+              ? 'fixed z-10 top-0 right-0 md:hidden bg-[#101010] h-screen w-full p-0 ease-in-out duration-500'
+              : 'fixed top-0 right-[-100%] h-screen p-0 ease-in-out duration-500'
+          }
+        >
+          <div className="flex w-full items-center justify-end pt-[30px]">
+            <div
+              className="cursor-pointer flex items-center gap-2 bg-gray-dark rounded-es-3xl py-3 px-5"
+              onClick={toggleMenu}
+            >
+              <span className="text-body text-white text-body-18 lowercase">
+                menu
+              </span>
+              <BsX className="w-8 h-8 text-white" />
+            </div>
+          </div>
+
+          {/* MENU MOBILE LINKS */}
+          <div className="relative flex-col gap-4 mt-8 p-10">
+            <ul className="flex flex-col items-end gap-4">
+              {NAV_LINKS.map(({ link, label }, index) => (
+                <ItemMenu
+                  key={index}
+                  link={link}
+                  label={label}
+                  event={setOpenMenu}
+                />
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
   );

@@ -88,6 +88,10 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="pt-br">
       <GoogleTagManager gtmId="G-RHVZYN86JP" />
+      <meta
+        name="google-site-verification"
+        content="kfnYBjmJDJUsSGFmiYLitV98lKWBB8sx387mRk0NSuA"
+      />
       {/* Add JSON-LD to your page */}
       <script
         type="application/ld+json"

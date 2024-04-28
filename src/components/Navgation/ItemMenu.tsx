@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 type TProps = {
   link: any;
@@ -15,10 +15,7 @@ const ItemMenu = ({ link, label, event }: TProps) => {
         <li className="">
           <Link
             href={link}
-            className="text-gray-dark font-body text-title-17 uppercase hover:text-gray-900 transition-all duration-300 py-1 px-2"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
+            className="text-white font-body text-[17px] uppercase hover:text-white/70 hover:underline underline-offset-8 transition-all duration-300 py-1 px-2"
           >
             {label}
           </Link>
@@ -31,7 +28,7 @@ const ItemMenu = ({ link, label, event }: TProps) => {
         <li className="" onClick={() => event(false)}>
           <Link
             href={link}
-            className="text-gray-dark font-body text-title-17 uppercase hover:text-gray-900 transition-all duration-300 py-1 px-2"
+            className="text-white font-body text-[17px] uppercase hover:text-white/70 hover:underline underline-offset-8 transition-all duration-300 py-1 px-2"
           >
             {label}
           </Link>
