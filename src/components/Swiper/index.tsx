@@ -17,7 +17,12 @@ const Index = () => {
 
   return (
     <section className="py-10 md:py-20">
-      <div className="container mx-auto px-4 md:px-0 w-full relative">
+      <div
+        className="container mx-auto px-4 md:px-0 w-full relative"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-duration="500"
+      >
         <div className="flex gap-5 item-center justify-end mb-[16px]">
           <button
             className="w-8 h-8 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center hover:bg-white/10 transition-all ease-linear border text-black border-white/5 hover:text-white"

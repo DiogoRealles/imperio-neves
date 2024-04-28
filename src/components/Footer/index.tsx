@@ -10,7 +10,12 @@ const Index = () => {
     <footer id="follow" className="">
       <div className="container mx-auto px-4 md:px-0">
         <div className="">
-          <header className="flex items-center justify-between py-10">
+          <header
+            className="flex items-center justify-between py-10"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="300"
+          >
             <div className="flex flex-col items-center justify-center text-center gap-1">
               <div className="relative overflow-hidden rounded-full w-[80px] h-[80px]">
                 <Image
@@ -31,7 +36,7 @@ const Index = () => {
 
             <Link
               href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
-              className=" text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-flex mx-auto md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
+              className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-flex md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
               target=" _blank"
               title="Chamar no Whatsapp"
             >

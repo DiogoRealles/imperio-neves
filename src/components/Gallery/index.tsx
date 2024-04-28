@@ -23,7 +23,12 @@ const Index = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div
+      className="container mx-auto"
+      data-aos="fade-up"
+      data-aos-delay="300"
+      data-aos-duration="300"
+    >
       <div className="bg-whit p-3 grid md:grid-cols-4 gap-3 w-full h-[700px] rounded-[18px]">
         {photoList.map((item) => (
           <PhotoItem

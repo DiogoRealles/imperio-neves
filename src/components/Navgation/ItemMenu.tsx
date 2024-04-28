@@ -12,7 +12,12 @@ const ItemMenu = ({ link, label, event }: TProps) => {
   if (!event) {
     return (
       <>
-        <li className="">
+        <li
+          className=""
+          data-aos="fade-down"
+          data-aos-delay="500"
+          data-aos-duration="500"
+        >
           <Link
             href={link}
             className="text-white font-body text-[17px] uppercase hover:text-white/70 hover:underline underline-offset-8 transition-all duration-300 py-1 px-2"

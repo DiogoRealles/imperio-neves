@@ -5,8 +5,19 @@ const Index = () => {
   return (
     <section id="about" className="">
       <div className="container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center justify-center md:gap-20">
-        <div className="w-[250px] md:w-[450px] h-[250px] md:h-[750px] mx-auto bg-about bg-top bg-no-repeat bg-cover rounded-full md:rounded-ss-full md:rounded-se-full md:rounded-es-full md:rounded-ee-full"></div>
-        <div className="flex flex-1 flex-col pb-10">
+        <div
+          className="w-[250px] md:w-[450px] h-[250px] md:h-[750px] mx-auto bg-about bg-top bg-no-repeat bg-cover rounded-full md:rounded-ss-full md:rounded-se-full md:rounded-es-full md:rounded-ee-full"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="500"
+        ></div>
+
+        <div
+          className="flex flex-1 flex-col pb-10"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-duration="500"
+        >
           <h2 className="text-[40px] uppercase font-title font-thin pt-10 mb-5 text-center md:text-left">
             Adriana Neves
           </h2>

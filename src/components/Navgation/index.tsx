@@ -31,6 +31,9 @@ const Index = () => {
         <Link
           className="gap-1 flex-col items-center flex justify-center"
           href="/"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-duration="300"
         >
           <span className="text-white font-title font-thin text-[24px]">
             Império Neves

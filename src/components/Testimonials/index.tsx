@@ -4,7 +4,12 @@ const Index = () => {
   return (
     <section className="bg-white">
       <div className="relative container mx-auto py-20 px-4 md:px-0">
-        <header className="flex flex-col md:flex-row items-center md:justify-between text-center md:text-start pb-20">
+        <header
+          className="flex flex-col md:flex-row items-center md:justify-between text-center md:text-start pb-20"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="300"
+        >
           <h2 className="uppercase text-[40px] text-black font-title font-thin leading-[105%] mb-2">
             Depoimentos de meus clientes
           </h2>
@@ -14,7 +19,12 @@ const Index = () => {
         </header>
 
         <div className="flex flex-col md:flex-row gap-5 mb-[24px]">
-          <div className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col">
+          <div
+            className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="300"
+          >
             <div className="flex items-center gap-2 mb-5">
               {Array(5)
                 .fill(1)
@@ -36,7 +46,12 @@ const Index = () => {
             </span>
           </div>
 
-          <div className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col">
+          <div
+            className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="300"
+          >
             <div className="flex items-center gap-2 mb-5">
               {Array(5)
                 .fill(1)
@@ -58,7 +73,12 @@ const Index = () => {
             </span>
           </div>
 
-          <div className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col">
+          <div
+            className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="300"
+          >
             <div className="flex items-center gap-2 mb-5">
               {Array(5)
                 .fill(1)
@@ -81,7 +101,12 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:items-end">
+        <div
+          className="flex flex-col items-center md:items-end"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="300"
+        >
           <p className="text-black text-[40px] font-semibold">100+</p>
           <p className="text-[22px] font-semibold text-black/60 lowercase mb-[8px]">
             clientes satisfeitos
@@ -90,7 +115,12 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="bg-testimonials bg-center h-[300px] md:h-[550px] overflow-hidden bg-cover bg-no-repeat"></div>
+      <div
+        className="bg-testimonials bg-center h-[300px] md:h-[550px] overflow-hidden bg-cover bg-no-repeat"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        data-aos-duration="300"
+      ></div>
     </section>
   );
 };
