@@ -83,10 +83,10 @@ const Index = () => {
 
         <div className="flex flex-col items-center md:items-end">
           <p className="text-black text-[40px] font-semibold">100+</p>
-          <p className="text-[16px] font-semibold text-black/60 lowercase mb-[8px]">
+          <p className="text-[22px] font-semibold text-black/60 lowercase mb-[8px]">
             clientes satisfeitos
           </p>
-          <div className="w-[170px] h-[48px] bg-customers bg-no-repeat bg-cover bg-center"></div>
+          <div className="w-[250px] h-[80px] bg-customers bg-no-repeat bg-cover bg-center"></div>
         </div>
       </div>
 
