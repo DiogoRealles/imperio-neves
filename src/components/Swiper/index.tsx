@@ -29,7 +29,7 @@ const Index = () => {
 
         <Swiper
           className="!px-3"
-          slidesPerView={1.2}
+          slidesPerView={1}
           spaceBetween={24}
           speed={800}
           loop={true}
@@ -39,90 +39,80 @@ const Index = () => {
           }}
           breakpoints={{
             320: {
-              slidesPerView: 1.2,
+              slidesPerView: 1.7,
               spaceBetween: 24,
             },
             460: {
-              slidesPerView: 1.2,
+              slidesPerView: 1.7,
               spaceBetween: 24,
             },
             640: {
-              slidesPerView: 1.2,
+              slidesPerView: 1.7,
               spaceBetween: 24,
             },
             1250: {
-              slidesPerView: 1.2,
+              slidesPerView: 1.7,
               spaceBetween: 24,
             },
           }}
         >
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
+          <SwiperSlide className="h-full max-h-[420px] overflow-hidden rounded-[16px]">
             <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-01.webp"
+              className="w-full h-full bg-cover object-cover align-middle"
+              src="/assets/img/gallery-01.jpg"
               alt=""
-              width={900}
-              height={600}
+              width={640}
+              height={420}
               quality={90}
             />
           </SwiperSlide>
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
+          <SwiperSlide className="h-full max-h-[420px] overflow-hidden rounded-[16px]">
             <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-02.webp"
+              className="w-full h-full bg-cover object-cover align-middle"
+              src="/assets/img/gallery-02.jpg"
               alt=""
-              width={900}
-              height={600}
+              width={640}
+              height={420}
               quality={90}
             />
           </SwiperSlide>
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
+          <SwiperSlide className="h-full max-h-[420px] overflow-hidden rounded-[16px]">
             <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-03.webp"
+              className="w-full h-full bg-cover object-cover align-middle"
+              src="/assets/img/gallery-03.jpg"
               alt=""
-              width={900}
-              height={600}
+              width={640}
+              height={420}
               quality={90}
             />
           </SwiperSlide>
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
+          <SwiperSlide className="h-full max-h-[420px] overflow-hidden rounded-[16px]">
             <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-06.webp"
+              className="w-full h-full bg-cover object-cover align-middle"
+              src="/assets/img/gallery-04.jpg"
               alt=""
-              width={900}
-              height={600}
+              width={640}
+              height={420}
               quality={90}
             />
           </SwiperSlide>
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
+          <SwiperSlide className="h-full max-h-[420px] overflow-hidden rounded-[16px]">
             <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-07.webp"
+              className="w-full h-full bg-cover object-cover align-middle"
+              src="/assets/img/gallery-05.jpg"
               alt=""
-              width={900}
-              height={600}
+              width={640}
+              height={420}
               quality={90}
             />
           </SwiperSlide>
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
+          <SwiperSlide className="h-full max-h-[420px] overflow-hidden rounded-[16px]">
             <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-10.webp"
+              className="w-full h-full bg-cover object-cover align-middle"
+              src="/assets/img/gallery-06.jpg"
               alt=""
-              width={900}
-              height={600}
-              quality={90}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="w-full h-full max-w-[900px] max-h-[463px] bg-cover object-cover overflow-hidden rounded-[16px]">
-            <Image
-              className="w-full h-full"
-              src="/assets/img/gallery-11.webp"
-              alt=""
-              width={900}
-              height={600}
+              width={640}
+              height={420}
               quality={90}
             />
           </SwiperSlide>

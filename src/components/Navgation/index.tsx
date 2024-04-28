@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Index = () => {
   return (
-    <nav id="hero" className="py-4">
+    <nav id="hero" className="py-8">
       <div className="container mx-auto flex items-center justify-between text-center px-4 md:px-0">
         <Link
           className="gap-1 flex-col items-center flex justify-center"
