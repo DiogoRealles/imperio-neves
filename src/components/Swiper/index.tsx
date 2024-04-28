@@ -18,14 +18,24 @@ const Index = () => {
   return (
     <section className="py-10 md:py-20">
       <div className="container mx-auto px-4 md:px-0 w-full relative">
-        <button
-          className="w-12 h-12 bg-white rounded-full flex items-center justify-center absolute left-10 z-10 top-1/2 hover:bg-black transition-all ease-linear border text-black border-white/5 hover:text-white"
-          onClick={() => {
-            swiperRef.current?.slidePrev();
-          }}
-        >
-          <FaChevronLeft className="" size={24} />
-        </button>
+        <div className="flex gap-5 item-center justify-end mb-[16px]">
+          <button
+            className="w-8 h-8 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center hover:bg-white/10 transition-all ease-linear border text-black border-white/5 hover:text-white"
+            onClick={() => {
+              swiperRef.current?.slidePrev();
+            }}
+          >
+            <FaChevronLeft className="" size={18} />
+          </button>
+          <button
+            className="w-8 h-8 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center hover:bg-white/10 transition-all ease-linear border text-black border-white/5 hover:text-white"
+            onClick={() => {
+              swiperRef.current?.slideNext();
+            }}
+          >
+            <FaChevronRight className="" size={18} />
+          </button>
+        </div>
 
         <Swiper
           className="!px-3"
@@ -39,15 +49,15 @@ const Index = () => {
           }}
           breakpoints={{
             320: {
-              slidesPerView: 1.7,
+              slidesPerView: 1,
               spaceBetween: 24,
             },
             460: {
-              slidesPerView: 1.7,
+              slidesPerView: 1,
               spaceBetween: 24,
             },
             640: {
-              slidesPerView: 1.7,
+              slidesPerView: 1.3,
               spaceBetween: 24,
             },
             1250: {
@@ -117,15 +127,6 @@ const Index = () => {
             />
           </SwiperSlide>
         </Swiper>
-
-        <button
-          className="w-12 h-12 bg-white rounded-full flex items-center justify-center absolute right-10 z-10 top-1/2 hover:bg-black transition-all ease-linear border text-black border-white/5 hover:text-white"
-          onClick={() => {
-            swiperRef.current?.slideNext();
-          }}
-        >
-          <FaChevronRight className="" size={24} />
-        </button>
       </div>
     </section>
   );
