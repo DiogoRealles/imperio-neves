@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const Index = () => {
   return (
-    <section id="about" className="">
+    <section id="about" className="overflow-x-hidden">
       <div className="container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center justify-center md:gap-20">
         <div
           className="w-[250px] md:w-[450px] h-[250px] md:h-[750px] mx-auto bg-about bg-top bg-no-repeat bg-cover rounded-full md:rounded-ss-full md:rounded-se-full md:rounded-es-full md:rounded-ee-full"

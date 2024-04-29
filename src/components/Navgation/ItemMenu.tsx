@@ -30,10 +30,10 @@ const ItemMenu = ({ link, label, event }: TProps) => {
   } else {
     return (
       <>
-        <li className="" onClick={() => event(false)}>
+        <li className="mb-[40px]" onClick={() => event(false)}>
           <Link
             href={link}
-            className="text-white font-body text-[17px] uppercase hover:text-white/70 hover:underline underline-offset-8 transition-all duration-300 py-1 px-2"
+            className="text-white font-body text-[17px] uppercase hover:text-white/70 hover:underline underline-offset-8 transition-all duration-300 py-2 px-2"
           >
             {label}
           </Link>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Index = () => {
   return (
-    <header className="py-10 md:py-20">
+    <header className="py-10 md:py-20 overflow-x-hidden">
       <div className="container mx-auto px-4 md:px-0">
         <div className="flex flex-col items-center justify-center">
           <h1
