@@ -1,9 +1,10 @@
 import { FaStar } from 'react-icons/fa';
+import Swiper from '@/components/Swiper';
 
 const Index = () => {
   return (
-    <section className="bg-white">
-      <div className="relative container mx-auto py-20 px-4 md:px-0">
+    <section className="py-10 md:py-20 bg-white">
+      <div className="container mx-auto px-4 md:px-0">
         <header
           className="flex flex-col md:flex-row items-center md:justify-between text-center md:text-start pb-20"
           data-aos="fade-up"
@@ -18,7 +19,7 @@ const Index = () => {
           </p>
         </header>
 
-        <div className="flex flex-col md:flex-row gap-5 mb-[24px]">
+        <div className="flex flex-col md:flex-row gap-5">
           <div
             className="p-4 rounded-[6px] bg-white shadow-md w-full flex flex-col"
             data-aos="fade-down"
@@ -101,12 +102,11 @@ const Index = () => {
           </div>
         </div>
 
-        <div
-          className="flex flex-col items-center md:items-end"
-          data-aos="fade-up"
-          data-aos-delay="300"
-          data-aos-duration="300"
-        >
+        <Swiper />
+      </div>
+
+      <div className="relative container mx-auto px-4 md:px-0">
+        <div className="flex flex-col items-center md:items-end">
           <p className="text-black text-[40px] font-semibold">100+</p>
           <p className="text-[22px] font-semibold text-black/60 lowercase mb-[8px]">
             clientes satisfeitos
@@ -114,13 +114,6 @@ const Index = () => {
           <div className="w-[250px] h-[80px] bg-customers bg-no-repeat bg-cover bg-center"></div>
         </div>
       </div>
-
-      <div
-        className="bg-testimonials bg-center h-[300px] md:h-[550px] overflow-hidden bg-cover bg-no-repeat"
-        data-aos="zoom-in"
-        data-aos-delay="300"
-        data-aos-duration="300"
-      ></div>
     </section>
   );
 };

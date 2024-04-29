@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const Index = () => {
   return (
-    <section id="trajes" className="py-10 md:p-20">
+    <section id="trajes" className="pt-10 md:pt-20">
       <div className="container mx-auto px-4 md:px-0">
         <header
           className="pb-20"
@@ -26,7 +26,7 @@ const Index = () => {
             data-aos-duration="500"
           >
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
-              Roupas de noivo
+              Roupas para noivo
             </div>
           </div>
           <div
@@ -36,7 +36,7 @@ const Index = () => {
             data-aos-duration="500"
           >
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
-              Roupas para padrinho
+              Roupas para padrinhos
             </div>
           </div>
           <div
@@ -96,6 +96,13 @@ const Index = () => {
           </Link>
         </div>
       </div>
+
+      <div
+        className="bg-testimonials bg-center h-[300px] md:h-[550px] overflow-hidden bg-cover bg-no-repeat mt-20"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        data-aos-duration="300"
+      ></div>
     </section>
   );
 };

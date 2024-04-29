@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { BsList, BsX } from 'react-icons/bs';
+import { FaInstagram, FaFacebookSquare } from 'react-icons/fa';
 import ItemMenu from './ItemMenu';
-import { FiMenu } from 'react-icons/fi';
 import Link from 'next/link';
 import { NAV_LINKS } from '@/constants';
 
@@ -89,6 +89,19 @@ const Index = () => {
                   event={setOpenMenu}
                 />
               ))}
+            </ul>
+
+            <ul className="flex gap-4 justify-end">
+              <li className="text-[32px] text-white hover:text-white/60 ease-linear">
+                <Link href="">
+                  <FaInstagram />
+                </Link>
+              </li>
+              <li className="text-[32px] text-white hover:text-white/60 ease-linear">
+                <Link href="">
+                  <FaFacebookSquare />
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
