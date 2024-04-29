@@ -54,7 +54,8 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'google-site-verification=G-RHVZYN86JP',
+    google:
+      'google-site-verification=kfnYBjmJDJUsSGFmiYLitV98lKWBB8sx387mRk0NSuA',
   },
 };
 
@@ -88,10 +89,6 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="pt-br">
       <GoogleTagManager gtmId="G-RHVZYN86JP" />
-      <meta
-        name="google-site-verification"
-        content="kfnYBjmJDJUsSGFmiYLitV98lKWBB8sx387mRk0NSuA"
-      />
       {/* Add JSON-LD to your page */}
       <script
         type="application/ld+json"
