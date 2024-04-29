@@ -14,12 +14,7 @@ const Index = ({ photo, onClick, colSpan, rowSpan }: Props) => {
       onClick={onClick}
       className={`relative w-full h-full cursor-pointer hover:opacity-80 col-span-${colSpan} row-span-${rowSpan} rounded-[6px] overflow-hidden`}
     >
-      <Image
-        className="w-full h-full object-cover align-middle"
-        src={`/assets/img/${photo.img_url}`}
-        alt=""
-        fill
-      />
+      <Image className="" src={`/assets/img/${photo.img_url}`} alt="" fill />
     </div>
   );
 };
