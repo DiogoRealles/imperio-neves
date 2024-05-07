@@ -35,11 +35,11 @@ const Index = () => {
             </div>
 
             <Link
-              href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+              href="https://www.instagram.com/imperionevess/"
               className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-flex md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
               target=" _blank"
-              title="Chamar no Whatsapp"
-              aria-label="Chamar no Whatsapp"
+              title="Ir para Instagram Império Neves - Trajes a rigor"
+              aria-label="Ir para Instagram Império Neves - Trajes a rigor"
             >
               <span className="whitespace-nowrap">Seguir</span>
               <FaInstagram
