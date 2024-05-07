@@ -32,6 +32,7 @@ const Index = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="Localização Império Neves - Trajes a rigor"
             ></iframe>
           </div>
 

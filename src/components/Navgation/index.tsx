@@ -93,12 +93,20 @@ const Index = () => {
 
             <ul className="flex gap-4 justify-end">
               <li className="text-[32px] text-white hover:text-white/60 ease-linear">
-                <Link href="">
+                <Link
+                  href="https://www.instagram.com/imperionevess/"
+                  title="Ir para Instagram Império Neves - Trajes a rigor"
+                  aria-label="Ir para Instagram Império Neves - Trajes a rigor"
+                >
                   <FaInstagram />
                 </Link>
               </li>
               <li className="text-[32px] text-white hover:text-white/60 ease-linear">
-                <Link href="">
+                <Link
+                  href="https://www.facebook.com/imperionevess/"
+                  title="Ir para Facebook Império Neves - Trajes a rigor"
+                  aria-label="Ir para Facebook Império Neves - Trajes a rigor"
+                >
                   <FaFacebookSquare />
                 </Link>
               </li>

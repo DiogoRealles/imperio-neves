@@ -25,6 +25,8 @@ const Index = () => {
       <div className="flex gap-5 item-center justify-end mb-[16px]">
         <button
           className="w-8 h-8 md:w-12 md:h-12 bg-black rounded-full flex items-center justify-center hover:bg-black/80 transition-all ease-linear border text-white border-black/95 hover:text-white/80"
+          title="Next"
+          aria-label="Next"
           onClick={() => {
             swiperRef.current?.slidePrev();
           }}
@@ -33,6 +35,8 @@ const Index = () => {
         </button>
         <button
           className="w-8 h-8 md:w-12 md:h-12 bg-black rounded-full flex items-center justify-center hover:bg-black/80 transition-all ease-linear border text-white border-black/95 hover:text-white/80"
+          title="Prev"
+          aria-label="Prev"
           onClick={() => {
             swiperRef.current?.slideNext();
           }}

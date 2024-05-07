@@ -18,63 +18,38 @@ const Index = () => {
             Veja nossas sugestões de roupas para eventos e festas
           </p>
         </header>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 gap-5">
-          <div
-            className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product01 p-10 text-center w-full h-[320px]"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
-          >
+        <div
+          className="grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 gap-5"
+          data-aos="fade-down"
+          data-aos-delay="500"
+          data-aos-duration="500"
+        >
+          <div className="cursor-pointe border border-black hover:border-white/50 rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product01 p-10 text-center w-full h-[320px]">
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para noivo
             </div>
           </div>
-          <div
-            className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product02 p-10 text-center w-full h-[320px]"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
-          >
+          <div className="cursor-pointe border border-black hover:border-white/50 rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product02 p-10 text-center w-full h-[320px]">
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para padrinhos
             </div>
           </div>
-          <div
-            className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product03 p-10 text-center w-full h-[320px]"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
-          >
+          <div className="cursor-pointe border border-black hover:border-white/50 rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product03 p-10 text-center w-full h-[320px]">
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para pagem
             </div>
           </div>
-          <div
-            className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product04 p-10 text-center w-full h-[320px]"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
-          >
+          <div className="cursor-pointe border border-black hover:border-white/50 rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product04 p-10 text-center w-full h-[320px]">
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para formandos
             </div>
           </div>
-          <div
-            className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product05 p-10 text-center w-full h-[320px]"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
-          >
+          <div className="cursor-pointe border border-black hover:border-white/50 rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product05 p-10 text-center w-full h-[320px]">
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para festas
             </div>
           </div>
-          <div
-            className="rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product06 p-10 text-center w-full h-[320px]"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="500"
-          >
+          <div className="cursor-pointe border border-black hover:border-white/50 rounded-[16px] relative hover:opacity-80 ease-linear overflow-hidden block z-10 bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-black before:to-black before:opacity-30 before:z-[-5] bg-product06 p-10 text-center w-full h-[320px]">
             <div className="absolute top-1/3 right-0 bottom-0 left-0 w-full h-full text-[32px] text-white font-title font-semibold text-center">
               Roupas para reuniões
             </div>

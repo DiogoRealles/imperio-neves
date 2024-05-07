@@ -39,9 +39,9 @@ const Index = () => {
               higienizados. Vale muito a pena, recomendo.
             </p>
 
-            <h4 className="text-xl text-black/80  font-body font-semibold mb-2">
+            <p className="text-xl text-black/80  font-body font-semibold mb-2">
               Akira Tattoo
-            </h4>
+            </p>
             <span className="inline-block font-body font-normal text-sm text-black/65">
               alguns dias atrás
             </span>
@@ -66,9 +66,9 @@ const Index = () => {
               adorei tudo, atendimento preço vale muito super encomendo
             </p>
 
-            <h4 className="text-xl text-black/80  font-body font-semibold mb-2">
+            <p className="text-xl text-black/80  font-body font-semibold mb-2">
               Daniele Viana
-            </h4>
+            </p>
             <span className="inline-block font-body font-normal text-sm text-black/65">
               Alguns dias atrás
             </span>
@@ -93,9 +93,9 @@ const Index = () => {
               Recomendo!
             </p>
 
-            <h4 className="text-xl text-black/80  font-body font-semibold mb-2">
+            <p className="text-xl text-black/80  font-body font-semibold mb-2">
               Henrique Alan Santos
-            </h4>
+            </p>
             <span className="inline-block font-body font-normal text-sm text-black/65">
               Uma semana atrás
             </span>

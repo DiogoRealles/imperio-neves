@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import '@/styles/globals.css';
-import { GoogleTagManager } from '@next/third-parties/google';
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 import { Cormorant_Garamond, Open_Sans } from 'next/font/google';
 import Navigation from '@/components/Navgation';
 import Footer from '@/components/Footer';
@@ -21,8 +21,8 @@ const open_sans = Open_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Império Neves | Trajes a rigor',
-    template: 'Império Neves | Trajes a rigor | s%',
+    default: 'Império Neves - Trajes a rigor',
+    template: 'Império Neves - Trajes a rigor - s%',
   },
   description:
     'Vendas e aluguel de trajes masculinos para festas e eventos. Seu sonho e momento são importantes para nós.',
@@ -42,20 +42,20 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Império Neves | Trajes a rigor',
+    title: 'Império Neves - Trajes a rigor',
     description:
       'Vendas e aluguel de trajes masculinos para festas e eventos. Seu sonho e momento são importantes para nós.',
     creator: 'Diogo Realles - Front-end',
     siteId: '',
     creatorId: '',
     images: {
-      url: 'https://imperio-neves.vercel.app/opengraph-image.jpg',
-      alt: 'Boulevard - Vila Romana',
+      url: 'https://imperio-neves.vercel.app/opengraph-image.png',
+      alt: 'Império Neves - Trajes a rigor',
     },
   },
   verification: {
     google:
-      'google-site-verification=kfnYBjmJDJUsSGFmiYLitV98lKWBB8sx387mRk0NSuA',
+      'google-site-verification=3SlupKUH0CMNB0NobkUuwdDCRA9J88hg5hWKaak5rzo',
   },
 };
 
@@ -72,7 +72,7 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
-    name: 'Império Neves | Trajes a rigor',
+    name: 'Império Neves - Trajes a rigor',
     image: 'https://imperio-neves.vercel.app/opengraph-image.jpg',
     description:
       'Vendas e aluguel de trajes masculinos para festas e eventos. Seu sonho e momento são importantes para nós.',
@@ -89,18 +89,20 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="pt-br">
       <GoogleTagManager gtmId="G-RHVZYN86JP" />
-      {/* Add JSON-LD to your page */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <body
         className={`${cormorant_garamond.variable} ${open_sans.variable} selection:bg-[#101010] selection:text-white bg-[#101010] text-white`}
       >
+        {/* Add JSON-LD to your page */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Navigation />
         {children}
         <Footer />
       </body>
+
+      <GoogleAnalytics gaId="G-RRGQJR1X5P" />
     </html>
   );
 }

@@ -39,6 +39,7 @@ const Index = () => {
               className="text-[18px] text-black font-normal border-black bg-white py-3 px-5 inline-flex md:mx-0 w-fit ease-linear rounded-[6px] hover:bg-white/80 group text-center justify-center items-center gap-2 transition-all whitespace-nowrap"
               target=" _blank"
               title="Chamar no Whatsapp"
+              aria-label="Chamar no Whatsapp"
             >
               <span className="whitespace-nowrap">Seguir</span>
               <FaInstagram
@@ -72,6 +73,8 @@ const Index = () => {
                 className=""
                 href="https://www.instagram.com/imperionevess/"
                 target="_blank"
+                title="Ir para Instagram Império Neves - Trajes a rigor"
+                aria-label="Ir para Instagram Império Neves - Trajes a rigor"
               >
                 <FaInstagram size={40} />
               </Link>
@@ -81,6 +84,8 @@ const Index = () => {
                 className=""
                 href="https://www.facebook.com/imperionevess/"
                 target="_blank"
+                title="Ir para Facebook Império Neves - Trajes a rigor"
+                aria-label="Ir para Facebook Império Neves - Trajes a rigor"
               >
                 <FaFacebookSquare size={40} />
               </Link>
