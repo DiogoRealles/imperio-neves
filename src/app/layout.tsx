@@ -88,7 +88,7 @@ export default function RootLayout({
   };
   return (
     <html className="scroll-smooth" lang="pt-br">
-      <GoogleTagManager gtmId="G-RHVZYN86JP" />
+      <GoogleTagManager gtmId="GTM-TV5LZ94X" />
       <body
         className={`${cormorant_garamond.variable} ${open_sans.variable} selection:bg-[#101010] selection:text-white bg-[#101010] text-white`}
       >
