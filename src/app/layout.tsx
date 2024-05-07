@@ -53,10 +53,10 @@ export const metadata: Metadata = {
       alt: 'Império Neves - Trajes a rigor',
     },
   },
-  // verification: {
-  //   google:
-  //     'google-site-verification=3SlupKUH0CMNB0NobkUuwdDCRA9J88hg5hWKaak5rzo',
-  // },
+  verification: {
+    google:
+      'google-site-verification=3SlupKUH0CMNB0NobkUuwdDCRA9J88hg5hWKaak5rzo',
+  },
 };
 
 export const viewport: Viewport = {
@@ -86,6 +86,7 @@ export default function RootLayout({
       },
     },
   };
+
   return (
     <html className="scroll-smooth" lang="pt-br">
       <GoogleTagManager gtmId="GTM-TV5LZ94X" />
